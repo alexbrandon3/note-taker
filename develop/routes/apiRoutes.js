@@ -24,8 +24,6 @@ router.post("/notes", function (req, res) {
 
 router.delete("/notes/:id", function (req, res) {
   noteService.getNotes().then((notes) => {
-    console.log(notes);
-
     const filteredNotes = notes.filter((note) => note.id !== req.params.id);
     noteService.writeFile(filteredNotes);
     console.log(filteredNotes);

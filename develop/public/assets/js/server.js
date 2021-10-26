@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const htmlRoutes = require('./develop/routes/htmlRoutes')
-const apiRoutes = require('./develop/routes/apiRoutes')
+const htmlRoutes = require('../../../routes/htmlRoutes')
+const apiRoutes = require('../../../routes/apiRoutes')
 
 
-const PORT = process.env.PORTS ||3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json())
 

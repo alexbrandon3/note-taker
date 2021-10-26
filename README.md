@@ -8,4 +8,7 @@ This application provides its user with a means to store notes with a brief desc
 
 ![A look ar the deployed application](./images/screenshot.png)
 
+## Link to GitHub repository:
+
+https://github.com/alexbrandon3/note-taker
 
